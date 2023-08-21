@@ -5,13 +5,21 @@ The client to use the Websocket filesharing.
 ## How to use
 
 ### If you want to share files:
-**You need to forward port 8765.** There is no way around that currently.
-`pip install -r requirements.txt`
-`python src/main.py`
+
+**You have to forward port 8765.** 
+A forwardless method (NAT hole punching) will be implemented as alternative eventually.
+
+```
+pip install -r requirements.txt
+python src/main.py
+```
 
 ### If you want to download files:
-`pip install -r requirements.txt`
-`python src/main.py`
+
+```
+pip install -r requirements.txt
+python src/main.py
+```
 
 ### How does it work?
 
